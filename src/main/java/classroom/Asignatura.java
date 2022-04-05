@@ -2,7 +2,7 @@ package classroom;
 
 public class Asignatura {
 
-    publicString nombre;
+    public String nombre;
     private String n = nombre;
     private int codigoInterno;
     public int codigoExterno;
