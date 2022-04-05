@@ -2,10 +2,10 @@ package classroom;
 
 public class Asignatura {
 
-    String nombre;
-    String n = nombre;
-    int codigoInterno;
-    int codigoExterno;
+    publicString nombre;
+    private String n = nombre;
+    private int codigoInterno;
+    public int codigoExterno;
 
     Asignatura() {
         this("Sin nombre", 0, 0);
@@ -37,7 +37,7 @@ public class Asignatura {
     }
     
 
-    void cambiarDatos(String nombre) {
+    public void cambiarDatos(String nombre) {
         this.nombre = nombre;
     }
 
